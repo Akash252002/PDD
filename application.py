@@ -1,17 +1,17 @@
 import os
-import sys
+# import sys
 
 from flask import Flask, render_template, request, redirect
 import numpy as np
 import warnings
 import pickle 
-from src.utils import load_object
+# from src.utils import load_object
 
 warnings.filterwarnings('ignore')
 from feature import FeatureExtraction
 
-from src.exception import CustomException
-from src.logger import logging 
+# from src.exception import CustomException
+# from src.logger import logging 
 
 # from src.pipeline.train_pipeline import TraininingPipeline
 # from src.pipeline.predict_pipeline import PredictionPipeline
@@ -55,15 +55,15 @@ def index():
     return render_template("index.html")
 
 @app.route("/train")
-def train_route():
-    try:
-        train_pipeline = TraininingPipeline()
-        train_pipeline.run_pipeline()
+# def train_route():
+    # try:
+    #     # train_pipeline = TraininingPipeline()
+    #     # train_pipeline.run_pipeline()
 
-        return "Training Completed."
+    #     return "Training Completed."
 
-    except Exception as e:
-        raise CustomException(e,sys)
+    # except Exception as e:
+    #     raise CustomException(e,sys)
 
 @app.route('/report')
 def report():

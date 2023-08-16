@@ -15,25 +15,25 @@ six==1.15.0
 soupsieve==2.0.1
 urllib3==1.25.10
 Werkzeug==1.0.1
-pymongo
-# utube
-scrapetube
-pandas
-numpy
-pandas
-scikit-learn
-matplotlib
-seaborn
-gunicorn
-Flask
-whois
-imbalanced-learn
-googlesearch_python==1.0.1
-ipaddress
-bs4
+# pymongo
+# # utube
+# scrapetube
+# pandas
+# numpy
+# pandas
+# scikit-learn
+# matplotlib
+# seaborn
+# gunicorn
+# Flask
+# whois
+# imbalanced-learn
+# googlesearch_python==1.0.1
+# ipaddress
+# bs4
 
-sklearn
-python-whois
-matplotlib
-seaborn
-xgboost
+# sklearn
+# python-whois
+# matplotlib
+# seaborn
+# xgboost
